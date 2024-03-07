@@ -1,0 +1,28 @@
+// Criando o ambiente virtual
+python3 -m venv ./venv
+
+// Ativando o ambiente
+source venv/bin/activate
+
+// Ver módulos instalados
+pip freeze
+
+// Instalando módulos listados no arquivos
+pip install -r requirements.txt
+
+// COmo o cursos era antigo as dependencias n instalaram com o comando anterior
+// tive que instalar pacote por pacote, pegando o requirements.txt
+python3 -m pip install --upgrade PACKAGE_NAME
+
+// Gerando novo arquivo
+pip freeze > requirements.txt
+
+
+//Iniciando servidor
+ python3 manage.py runserver
+
+//Gerando migração
+python3 manage.py makemigrations
+
+// Rodando as migrações
+python3 manage.py migrate
