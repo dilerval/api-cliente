@@ -26,3 +26,14 @@ python3 manage.py makemigrations
 
 // Rodando as migrações
 python3 manage.py migrate
+
+// Criando um super usuário
+python3 manage.py createsuperuser
+
+
+// Acessando o shell para e representação da classe ClienteSerializer
+python3 manage.py shell
+
+>>>from clientes.serializers import ClienteSerializer
+>>>s = ClienteSerializer()
+>>>print(repr(s))
