@@ -37,3 +37,8 @@ python3 manage.py shell
 >>>from clientes.serializers import ClienteSerializer
 >>>s = ClienteSerializer()
 >>>print(repr(s))
+
+
+#  Biblioteca de validação de documentos brasilieros
+validate_docbr
+https://pypi.org/project/validate-docbr/
