@@ -30,6 +30,8 @@ python3 manage.py migrate
 // Criando um super usuário
 python3 manage.py createsuperuser
 
+http://localhost:8000/admin/
+
 
 // Acessando o shell para e representação da classe ClienteSerializer
 python3 manage.py shell
