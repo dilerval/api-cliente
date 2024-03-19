@@ -44,3 +44,7 @@ python3 manage.py shell
 #  Biblioteca de validação de documentos brasilieros
 validate_docbr
 https://pypi.org/project/validate-docbr/
+
+
+# Paginação
+https://www.django-rest-framework.org/api-guide/pagination/
