@@ -52,3 +52,8 @@ https://www.django-rest-framework.org/api-guide/pagination/
 # ORdenação
 https://www.django-rest-framework.org/api-guide/filtering/
 pip install django-filter
+
+deploy
+git init
+git add .
+git commit -m 'Adicionando projeto'
